@@ -1,0 +1,5 @@
+conda create -n gdalenv
+conda activate gdalenv
+conda config --env --add channels conda-forge
+conda config --env --set channel_priority strict
+conda install gdal
