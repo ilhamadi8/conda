@@ -13,3 +13,4 @@ c.ServerApp.open_browser = False
 c.ServerApp.password = 'sha1:your_hashed_password'
 from jupyter_server.auth import passwd
 print(passwd())
+argon2:$argon2id$v=19$m=10240,t=10,p=8$rtZuwJAOI69zLcYmdiXPTQ$FF65B/ATUd8gzZ5RxdAWa/0Ij1o96U2yB8ej8xnl0H4
